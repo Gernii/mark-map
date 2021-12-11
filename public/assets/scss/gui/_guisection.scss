@@ -1,0 +1,22 @@
+.sidebar {
+    font-family: 'Shippori Antique', sans-serif;
+    margin: 20px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 0px;
+    z-index: 1;
+    transition: all .6s ease;
+    display: block;
+    header {
+        font-size: 0px;
+        border-radius: 15px 15px 0 0;
+    }
+    ul label {
+        font-size: 0px;
+    }
+    ul li:last-child label {
+        font-size: 0px;
+        border-radius: 0 0 15px 15px;
+    }
+}
